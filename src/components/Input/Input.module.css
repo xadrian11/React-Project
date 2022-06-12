@@ -1,0 +1,16 @@
+.input {
+  background-color: #fff;
+  width: 30rem;
+  height: 3.5rem;
+  border: 1px solid #c4c4c4;
+  color: #787878;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 630px) {
+  .input {
+    width: auto;
+  }
+}

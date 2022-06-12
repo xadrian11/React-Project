@@ -1,0 +1,21 @@
+.submitbtn {
+  width: 30.75rem;
+  height: 3.75rem;
+  margin-top: 2rem;
+  background-color: #41d3f3;
+  border-style: none;
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.submitbtn:hover {
+  background-color: #37abc5;
+  cursor: pointer;
+}
+
+@media (max-width: 630px) {
+  .submitbtn {
+    width: 95%;
+  }
+}

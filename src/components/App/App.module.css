@@ -1,0 +1,20 @@
+:root {
+  --color-dark: #000;
+  --color-light: #f3f3f3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid rgb(219, 219, 219);
+  min-height: 100vh;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 76px;
+  background: #e5e5e5;
+}

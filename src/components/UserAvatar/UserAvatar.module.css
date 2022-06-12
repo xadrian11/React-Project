@@ -1,0 +1,76 @@
+:root {
+  --color-error: #ff6347;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+}
+
+.avatar {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+@media (max-width: 576px) {
+  .avatar {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.buttonModal {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 2.5rem;
+  padding: 1rem;
+  display: none;
+  cursor: pointer;
+  background-color: #41d3f3;
+  width: 80%;
+  border-style: none;
+  border-radius: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.buttonModal:hover {
+  background-color: #37abc5;
+  cursor: pointer;
+}
+
+.wrapper:hover .buttonModal {
+  display: block;
+}
+
+.wrapper:hover .avatar {
+  opacity: 0.5;
+}
+
+.errorBorder {
+  border-radius: 0.5rem;
+  border: 0.3rem solid var(--color-error);
+  width: 30rem;
+  height: 3.5rem;
+  color: #787878;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0.5rem;
+}
+
+.error {
+  font-size: 2rem;
+  color: var(--color-error);
+  margin-top: 0.5rem;
+}
+
+.modal {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

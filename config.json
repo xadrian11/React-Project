@@ -1,0 +1,11 @@
+{
+  "basename": "team-mw-project-2",
+  "firebase": {
+    "apiKey": "AIzaSyC9VPhAM0lhHq03Uqg-YQvxwIsE4kyJYOQ",
+    "authDomain": "cc-insta-clone-2.firebaseapp.com",
+    "projectId": "cc-insta-clone-2",
+    "storageBucket": "cc-insta-clone-2.appspot.com",
+    "messagingSenderId": "895347235827",
+    "appId": "1:895347235827:web:a9aea4b80806cbaa415086"
+  }
+}

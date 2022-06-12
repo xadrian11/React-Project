@@ -1,0 +1,38 @@
+.profile-view-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 75%;
+}
+@media (max-width: 576px) {
+  .main {
+    gap: 20px;
+    width: 100%;
+  }
+}
+
+.posts-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.post-image {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+@media (max-width: 576px) {
+  .posts-wrapper {
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+  }
+}

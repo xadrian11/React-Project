@@ -1,0 +1,21 @@
+@import '@csstools/normalize.css';
+@import 'https://fonts.googleapis.com/css?family=Open%20Sans';
+@import 'https://fonts.googleapis.com/css2?family=Satisfy&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(219, 219, 219, 0.179);
+  font-family: 'Public Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}

@@ -1,0 +1,28 @@
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addpostbutton {
+  width: 10rem;
+  height: 3.75rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  background-color: #41d3f3;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.addpostbutton:hover {
+  background-color: #37abc5;
+  cursor: pointer;
+}
+
+@media (max-width: 540px) {
+  .addpostbutton {
+    margin-left: 1rem;
+  }
+}

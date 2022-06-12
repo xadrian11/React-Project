@@ -1,0 +1,64 @@
+.logo {
+  height: 12rem;
+  width: 12rem;
+  margin: 0 5rem;
+}
+
+.navBar {
+  margin: 0;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks,
+.signoutbtn {
+  margin: 0 3rem;
+}
+
+.navlink,
+.signoutbtn {
+  font-size: 15px;
+  color: #000;
+}
+
+.navlink {
+  padding: 0 1.5rem;
+  text-decoration: none;
+}
+
+.navlink:hover,
+.signoutbtn:hover {
+  color: rgb(53, 53, 53);
+  text-decoration: underline;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.signoutbtn {
+  background-color: transparent;
+  border: none;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.signoutbtn:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 540px) {
+  .logo {
+    margin: 0 2rem;
+    font-size: 4rem;
+  }
+  .navlink,
+  .signoutbtn {
+    font-size: 12px;
+  }
+  .navlinks,
+  .signoutbtn {
+    margin: 0 1rem;
+  }
+}

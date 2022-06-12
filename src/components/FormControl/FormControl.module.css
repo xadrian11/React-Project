@@ -1,0 +1,11 @@
+.formcontrol {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 630px) {
+  .formcontrol {
+    width: 95%;
+  }
+}

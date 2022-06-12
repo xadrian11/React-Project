@@ -1,0 +1,15 @@
+.followButton {
+  background-color: transparent;
+  border: 1px solid #dbdbdb;
+  margin: 0 5px;
+  padding: 6px 15px;
+  border-radius: 2px;
+  color: #262626;
+  color: rgba(38, 38, 38, 1);
+  font-size: 1.42rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.followButton:disabled {
+  opacity: 0.5;
+}
